@@ -36,6 +36,9 @@ header nav a{
     color: #666666;
     text-decoration: none;
 }
+header nav a:hover{
+    text-decoration: underline;
+}
 /* header end */
 
 /* header up to 600px start */
@@ -240,6 +243,57 @@ main section:nth-child(1) article a:hover{
 
 /* main over 992px end */
 
+/* main over 1200px start */
+@media  screen and (min-width: 1200px) {
+    main{
+        width: 100%;
+    }
+    main section:nth-child(1){
+        width: 100%;
+        height: 1300px;
+        background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('images/glasses1.jpeg');
+        background-size: cover;
+    }
+    main section:nth-child(1) article{
+        width: 600px;
+        height: 300px;
+        position: relative;
+        top: 300px;
+        left: 230px;
+        text-align: center;
+        color: #fff;
+    }
+    main section:nth-child(1) article h1{
+        margin: 0;
+        font-size: 50px;
+        color: #CEAB93;
+    }
+    main section:nth-child(1) article p{
+        margin: 0;
+        font-size: 25px;
+    }
+    main section:nth-child(1) article a{
+        padding: 10px 30px;
+        font-weight: bold;
+        color: #E3CAA5;
+        border: 2px solid #E3CAA5;
+        border-radius: 10px;
+        margin: 10px;
+        position: relative;
+        top: 30px;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+
+}
+main section:nth-child(1) article a:hover{
+    color: #666666;
+    background-color: #E3CAA5;
+}
+
+/* main over 992px end */
+
+
 /* section2 up to 600px start */
 @media screen and (max-width: 600px) {
     main section:nth-child(2){
@@ -263,7 +317,7 @@ main section:nth-child(1) article a:hover{
     }
     main section:nth-child(2) section article{
         width: 90%;
-        height: 230px;
+        height: 280px;
         margin: 10px 5%;
         text-align: center;
         box-shadow: 1px 1px 4px 1px #666666;
@@ -282,19 +336,17 @@ main section:nth-child(1) article a:hover{
     }
     main section:nth-child(2) section article p{
         padding: 0 10px 5px 10px;
-        font-size: 14px;
-
+        font-size: 13px;
     }
     main section:nth-child(2) section article a{
         padding: 9px 40px;
         background-color: #E3CAA5;
         border-radius: 10px;
         align-self: center;
-        position: relative;
-        top: -10px;
         text-decoration: none;
         font-weight: bold;
         color:#666666;
+        transition: 0.4s;
     }
     main section:nth-child(2) article a:hover{
         background-color: #AD8B73;
@@ -359,7 +411,8 @@ main section:nth-child(1) article a:hover{
         top: 20px;
         text-decoration: none;
         font-weight: bold;
-        color:#666666
+        color:#666666;
+        transition: 0.4s;
     }
     main section:nth-child(2) article a:hover{
         background-color: #AD8B73;
@@ -421,7 +474,8 @@ main section:nth-child(1) article a:hover{
         top: 20px;
         text-decoration: none;
         font-weight: bold;
-        color:#666666
+        color:#666666;
+        transition: 0.4s;
     }
     main section:nth-child(2) article a:hover{
         background-color: #AD8B73;
@@ -479,7 +533,8 @@ main section:nth-child(1) article a:hover{
         top: 20px;
         text-decoration: none;
         font-weight: bold;
-        color:#666666
+        color:#666666;
+        transition: 0.4s;
     }
     main section:nth-child(2) article a:hover{
         background-color: #AD8B73;
@@ -520,7 +575,19 @@ main section:nth-child(1) article a:hover{
         width: 100px;
         height: 26px;
         font-size: 1rem;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: 0.4s;
+        background-color: #E3CAA5;
+        color: #666666;
+        font-weight: bold;
+
     }
+    main section:nth-child(3) button:hover{
+        background-color: #AD8B73;
+        color: #FFFBE9;
+    }
+
     main section:nth-child(3) article{
         width: 80%;
         height: 260px;
@@ -559,7 +626,6 @@ main section:nth-child(1) article a:hover{
 }
 /* section3 up to 600px end */
 
-
 /* section3 over 600px start */
 @media screen and (min-width: 600px) {
     main section:nth-child(3){
@@ -588,7 +654,18 @@ main section:nth-child(1) article a:hover{
     main section:nth-child(3) button{
         width: 100px;
         height: 36px;
+        border-radius: 10px;
+        transition: 0.4s;
+        background-color: #E3CAA5;
+        color: #666666;
+        font-weight: bold;
+
     }
+    main section:nth-child(3) button:hover{
+        background-color: #AD8B73;
+        color: #FFFBE9;
+    }
+
     main section:nth-child(3) article{
         width: 80%;
         height: 260px;
@@ -658,7 +735,18 @@ main section:nth-child(1) article a:hover{
         width: 100px;
         height: 46px;
         font-size: 1.3rem;
+        border-radius: 10px;
+        transition: 0.4s;
+        background-color: #E3CAA5;
+        color: #666666;
+        font-weight: bold;
+
     }
+    main section:nth-child(3) button:hover{
+        background-color: #AD8B73;
+        color: #FFFBE9;
+    }
+
     main section:nth-child(3) article{
         width: 80%;
         height: 300px;
@@ -723,7 +811,19 @@ main section:nth-child(1) article a:hover{
         width: 100px;
         height: 46px;
         font-size: 1.3rem;
+        border: none;
+        border-radius: 10px;
+        transition: 0.4s;
+        background-color: #E3CAA5;
+        color: #666666;
+        font-weight: bold;
+
     }
+    main section:nth-child(3) button:hover{
+        background-color: #AD8B73;
+        color: #FFFBE9;
+    }
+
     main section:nth-child(3) article{
         width: 80%;
         height: 300px;

@@ -98,6 +98,8 @@ header nav a:hover{
         position: relative;
         top: 15px;
         text-decoration: none;
+        transition: 0.4s;
+
     }
 
 }
@@ -144,6 +146,8 @@ header nav a:hover{
         position: relative;
         top: 15px;
         text-decoration: none;
+        transition: 0.4s;
+
     }
 
 }
@@ -189,6 +193,8 @@ header nav a:hover{
         position: relative;
         top: 20px;
         text-decoration: none;
+        transition: 0.4s;
+
     }
 
 }
@@ -233,6 +239,8 @@ header nav a:hover{
         position: relative;
         top: 30px;
         text-decoration: none;
+        transition: 0.4s;
+
     }
 
 }

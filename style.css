@@ -244,7 +244,7 @@ main section:nth-child(1) article a:hover{
 /* main over 992px end */
 
 /* main over 1200px start */
-@media  screen and (min-width: 1200px) {
+@media  screen and (min-width: 1450px) {
     main{
         width: 100%;
     }

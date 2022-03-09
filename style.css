@@ -69,25 +69,26 @@ header nav a:hover{
         height: 100vh;
         background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('images/glasses1.jpeg');
         background-size: cover;
-        background-position-x: -460px;
+        background-position-x: -560px;
+        background-position-y: 300px;
     }
     main section:nth-child(1) article{
         width: 200px;
         height: 100px;
         position: relative;
-        top: 70px;
-        left: 30px;
+        top: 200px;
+        left: 60px;
         text-align: center;
         color: #fff;
     }
     main section:nth-child(1) article h1{
         margin: 0;
-        font-size: 23px;
+        font-size: 25px;
         color: #CEAB93;
     }
     main section:nth-child(1) article p{
         margin: 0;
-        font-size: 14px;
+        font-size: 16px;
     }
     main section:nth-child(1) article a{
         padding: 5px 10px;

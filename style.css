@@ -69,6 +69,7 @@ header nav a:hover{
         height: 100vh;
         background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('images/glasses1.jpeg');
         background-size: cover;
+        background-position-x: -260px;
     }
     main section:nth-child(1) article{
         width: 200px;
@@ -358,7 +359,6 @@ main section:nth-child(1) article a:hover{
         background-color: #AD8B73;
         color: #fff;
     }
-
 }
 
 /* section2 up to 600px end*/

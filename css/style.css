@@ -4,56 +4,55 @@ html{
 
 body{
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* header start */
 header{
     background-color: #FFFBE9;
-    display: flex;
+    width: 100%;
+    padding: 10px 0
 
 }
-header section{
-    width: 33%;
-}
-header section h1{
+header h1{
     margin-top: 0;
-    font-size: 1.8rem;
     padding: 18px 0 0 18px;
     color: #666666;
 }
-header section h1 a{
+header h1 a{
     color: #666666;
     text-decoration: none;
 }
-header nav{
-    width: 66%;
-    text-align: right;
+header h1 span {
+    width: 40%;
     align-self: center;
-
+    font-size: 16px;
+    position: relative;
+    left: 100px;
 }
-header nav a{
+header h1 span a{
     margin-right: 20px;
     color: #666666;
     text-decoration: none;
 }
-header nav a:hover{
+header h1 span a:hover{
     text-decoration: underline;
 }
 /* header end */
 
 /* header up to 600px start */
 @media screen and (max-width: 600px) {
-    header section h1{
+    header h1{
         margin-top: 0;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         padding: 18px 0 0 18px;
         color: #666666;
     }
-    header nav a{
+    header h1 span a{
         margin-right: 10px;
         color: #666666;
         text-decoration: none;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
 }
@@ -67,7 +66,7 @@ header nav a:hover{
     main section:nth-child(1){
         width: 100%;
         height: 100vh;
-        background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('images/glasses1.jpeg');
+        background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/glasses1.jpeg');
         background-size: cover;
         background-position-x: -580px;
         background-position-y: 200px;
@@ -85,7 +84,7 @@ header nav a:hover{
         margin: 0;
         margin-bottom: 20px;
         font-size: 30px;
-        color: #CEAB93;
+        color: #FFFBE9;
     }
     main section:nth-child(1) article p{
         margin: 0;
@@ -95,8 +94,8 @@ header nav a:hover{
     main section:nth-child(1) article a{
         padding: 5px 10px;
         font-weight: bold;
-        color: #E3CAA5;
-        border: 2px solid #E3CAA5;
+        color: #FFFBE9;
+        border: 2px solid #FFFBE9;
         border-radius: 10px;
         margin: 5px;
         position: relative;
@@ -118,7 +117,7 @@ header nav a:hover{
     main section:nth-child(1){
         width: 100%;
         height: 580px;
-        background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('images/glasses1.jpeg');
+        background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/glasses1.jpeg');
         background-size: cover;
         background-position-x: -10px;
     }
@@ -134,7 +133,7 @@ header nav a:hover{
     main section:nth-child(1) article h1{
         margin: 0;
         font-size: 30px;
-        color: #CEAB93;
+        color: #FFFBE9;
     }
     main section:nth-child(1) article p{
         margin: 0;
@@ -143,8 +142,8 @@ header nav a:hover{
     main section:nth-child(1) article a{
         padding: 8px 20px;
         font-weight: bold;
-        color: #E3CAA5;
-        border: 2px solid #E3CAA5;
+        color: #FFFBE9;
+        border: 2px solid #FFFBE9;
         border-radius: 10px;
         margin: 5px;
         position: relative;
@@ -165,7 +164,7 @@ header nav a:hover{
     main section:nth-child(1){
         width: 100%;
         height: 620px;
-        background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('images/glasses1.jpeg');
+        background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/glasses1.jpeg');
         background-size: cover;
     }
     main section:nth-child(1) article{
@@ -180,7 +179,7 @@ header nav a:hover{
     main section:nth-child(1) article h1{
         margin: 0;
         font-size: 40px;
-        color: #CEAB93;
+        color: #FFFBE9;
     }
     main section:nth-child(1) article p{
         margin: 0;
@@ -189,8 +188,8 @@ header nav a:hover{
     main section:nth-child(1) article a{
         padding: 10px 30px;
         font-weight: bold;
-        color: #E3CAA5;
-        border: 2px solid #E3CAA5;
+        color: #FFFBE9;
+        border: 2px solid #FFFBE9;
         border-radius: 10px;
         margin: 5px;
         position: relative;
@@ -210,7 +209,7 @@ header nav a:hover{
     main section:nth-child(1){
         width: 100%;
         height: 100vh;
-        background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('images/glasses1.jpeg');
+        background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/glasses1.jpeg');
         background-size: cover;
     }
     main section:nth-child(1) article{
@@ -225,7 +224,7 @@ header nav a:hover{
     main section:nth-child(1) article h1{
         margin: 0;
         font-size: 50px;
-        color: #CEAB93;
+        color: #FFFBE9;
     }
     main section:nth-child(1) article p{
         margin: 0;
@@ -234,8 +233,8 @@ header nav a:hover{
     main section:nth-child(1) article a{
         padding: 10px 30px;
         font-weight: bold;
-        color: #E3CAA5;
-        border: 2px solid #E3CAA5;
+        color: #FFFBE9;
+        border: 2px solid #FFFBE9;
         border-radius: 10px;
         margin: 10px;
         position: relative;
@@ -253,7 +252,7 @@ main section:nth-child(1) article a:hover{
 
 /* main over 992px end */
 
-/* main over 1200px start */
+/* main over 1450px start */
 @media  screen and (min-width: 1450px) {
     main{
         width: 100%;
@@ -261,7 +260,7 @@ main section:nth-child(1) article a:hover{
     main section:nth-child(1){
         width: 100%;
         height: 1300px;
-        background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('images/glasses1.jpeg');
+        background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/glasses1.jpeg');
         background-size: cover;
     }
     main section:nth-child(1) article{
@@ -276,7 +275,7 @@ main section:nth-child(1) article a:hover{
     main section:nth-child(1) article h1{
         margin: 0;
         font-size: 50px;
-        color: #CEAB93;
+        color: #FFFBE9;
     }
     main section:nth-child(1) article p{
         margin: 0;
@@ -285,8 +284,8 @@ main section:nth-child(1) article a:hover{
     main section:nth-child(1) article a{
         padding: 10px 30px;
         font-weight: bold;
-        color: #E3CAA5;
-        border: 2px solid #E3CAA5;
+        color: #FFFBE9;
+        border: 2px solid #FFFBE9;
         border-radius: 10px;
         margin: 10px;
         position: relative;
@@ -298,10 +297,10 @@ main section:nth-child(1) article a:hover{
 }
 main section:nth-child(1) article a:hover{
     color: #666666;
-    background-color: #E3CAA5;
+    background-color: #FFFBE9;
 }
 
-/* main over 992px end */
+/* main over 1450px end */
 
 
 /* section2 up to 600px start */
@@ -314,20 +313,16 @@ main section:nth-child(1) article a:hover{
     }
     main section:nth-child(2) h1{
         text-align: center;
-        background-color: #CEAB93;
+        background-color: #AD8B73;
         margin: 0;
         padding: 10px;
         font-size: 1.8rem;
         color: #fff;
     }
 
-    main section:nth-child(2) section{
-        display: flex;
-        flex-direction: column;
-    }
     main section:nth-child(2) section article{
         width: 90%;
-        height: 280px;
+        height: fit-content;
         margin: 10px 5%;
         text-align: center;
         box-shadow: 1px 1px 4px 1px #666666;
@@ -336,26 +331,29 @@ main section:nth-child(1) article a:hover{
         width: 150px;
         height: 130px;
         border-radius: 100%;
-        padding: 15px;
+        padding: 10px;
         margin-top: 20px;
-        float: left;
     }
     main section:nth-child(2) section article h2{
-        padding: 2px;
+        padding: 10px 10px 0 10px;
         font-size: 20px;
     }
     main section:nth-child(2) section article p{
-        padding: 0 10px 5px 10px;
+        padding: 0 10px 10px 10px;
         font-size: 13px;
+        height: 130px;
+        overflow: hidden;
     }
     main section:nth-child(2) section article a{
         padding: 9px 40px;
-        background-color: #E3CAA5;
+        border: 1px solid #AD8B73;
         border-radius: 10px;
         align-self: center;
+        position: relative;
+        bottom: 30px;
         text-decoration: none;
         font-weight: bold;
-        color:#666666;
+        color: #666;
         transition: 0.4s;
     }
     main section:nth-child(2) article a:hover{
@@ -377,20 +375,16 @@ main section:nth-child(1) article a:hover{
     }
     main section:nth-child(2) h1{
         text-align: center;
-        background-color: #CEAB93;
+        background-color: #AD8B73;
         margin: 0;
         padding: 10px;
         font-size: 2rem;
         color: #fff;
     }
 
-    main section:nth-child(2) section{
-        display: flex;
-        flex-direction: column;
-    }
     main section:nth-child(2) section article{
         width: 90%;
-        height: 230px;
+        height: 390px;
         margin: 10px 5%;
         text-align: center;
         box-shadow: 1px 1px 4px 1px #666666;
@@ -400,7 +394,6 @@ main section:nth-child(1) article a:hover{
         height: 180px;
         border-radius: 100%;
         padding: 15px;
-        float: left;
     }
     main section:nth-child(2) section article h2{
         padding: 2px;
@@ -409,25 +402,21 @@ main section:nth-child(1) article a:hover{
     main section:nth-child(2) section article p{
         padding: 0 10px 5px 10px;
         font-size: 14px;
-
     }
     main section:nth-child(2) section article a{
         padding: 9px 40px;
-        background-color: #E3CAA5;
+        border: 1px solid #AD8B73;
         border-radius: 10px;
         align-self: center;
-        position: relative;
-        top: 20px;
         text-decoration: none;
         font-weight: bold;
-        color:#666666;
+        color: #666;
         transition: 0.4s;
     }
     main section:nth-child(2) article a:hover{
         background-color: #AD8B73;
         color: #fff;
     }
-
 }
 
 /* section2 over 600px end*/
@@ -443,20 +432,17 @@ main section:nth-child(1) article a:hover{
     }
     main section:nth-child(2) h1{
         text-align: center;
-        background-color: #CEAB93;
+        background-color: #AD8B73;
         margin: 0;
         padding: 10px;
         font-size: 3rem;
         color: #fff;
     }
 
-    main section:nth-child(2) section{
-        display: flex;
-        flex-direction: column;
-    }
+
     main section:nth-child(2) section article{
         width: 90%;
-        height: 270px;
+        height: 500px;
         margin: 10px 5%;
         text-align: center;
         box-shadow: 1px 1px 4px 1px #666666;
@@ -466,7 +452,6 @@ main section:nth-child(1) article a:hover{
         height: 230px;
         border-radius: 100%;
         padding: 15px;
-        float: left;
     }
     main section:nth-child(2) section article h2{
         padding: 10px;
@@ -476,14 +461,14 @@ main section:nth-child(1) article a:hover{
     }
     main section:nth-child(2) section article a{
         padding: 10px 50px;
-        background-color: #E3CAA5;
+        border: 1px solid #AD8B73;
         border-radius: 10px;
         align-self: center;
         position: relative;
         top: 20px;
         text-decoration: none;
         font-weight: bold;
-        color:#666666;
+        color: #666;
         transition: 0.4s;
     }
     main section:nth-child(2) article a:hover{
@@ -499,52 +484,50 @@ main section:nth-child(1) article a:hover{
 @media screen and (min-width: 992px) {
     main section:nth-child(2){
         width: 100%;
-        height: 93vh;
+        height: fit-content;
         color: #666666;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
     }
     main section:nth-child(2) h1{
         text-align: center;
-        background-color: #E3CAA5;
+        background-color: #AD8B73;
         margin: 0;
         padding: 10px;
         font-size: 3rem;
         color: #fff;
     }
 
-    main section:nth-child(2) section{
-        display: flex;
-        flex-direction: row;
-    }
     main section:nth-child(2) section article{
+        display: inline-block;
         width: 30%;
-        height: 500px;
-        margin: 30px;
+        height: 525px;
         position: relative;
         top: 50px;
+        left: 20px;
         text-align: center;
         box-shadow: 1px 1px 4px 1px #666666;
+        margin: 1%;
     }
     main section:nth-child(2) section article img{
         width: 250px;
         height: 230px;
         border-radius: 100%;
         padding-top: 20px;
-        float: none;
     }
     main section:nth-child(2) section article p{
         padding: 0 10px;
     }
     main section:nth-child(2) section article a{
         padding: 10px 50px;
-        background-color: #E3CAA5;
+        border: 1px solid #AD8B73;
         border-radius: 10px;
         align-self: center;
         position: relative;
         top: 20px;
         text-decoration: none;
         font-weight: bold;
-        color:#666666;
+        color: #666;
         transition: 0.4s;
     }
     main section:nth-child(2) article a:hover{
@@ -555,9 +538,78 @@ main section:nth-child(1) article a:hover{
 }
 /* section2 over 992px end */
 
-/* section3 up to 600px start */
+/* section2 over 1450px start */
+@media screen and (min-width: 1450px) {
+    main section:nth-child(2){
+        width: 100%;
+        height: fit-content;
+        color: #666666;
+        padding-bottom: 40px;
+    }
+    main section:nth-child(2) h1{
+        text-align: center;
+        background-color: #AD8B73;
+        margin: 0;
+        padding: 10px;
+        font-size: 3rem;
+        color: #fff;
+    }
+
+    main section:nth-child(2) section article{
+        width: 30%;
+        height: 660px;
+        position: relative;
+        top: 50px;
+        right: 1%;
+        text-align: center;
+        box-shadow: 1px 1px 4px 1px #666666;
+        display: inline-block;
+        margin: 20px;
+    }
+    main section:nth-child(2) section article img{
+        width: 350px;
+        height: 330px;
+        border-radius: 100%;
+    }
+    main section:nth-child(2) section article p{
+        padding: 0 10px;
+    }
+    main section:nth-child(2) section article a{
+        padding: 10px 50px;
+        border: 1px solid #AD8B73;
+        border-radius: 10px;
+        align-self: center;
+        position: relative;
+        top: 60px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #666;
+        transition: 0.4s;
+    }
+    main section:nth-child(2) article a:hover{
+        background-color: #AD8B73;
+        color: #fff;
+    }
+
+}
+/* section2 over 1450px end */
+
+main section:nth-child(3){
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/pexels-ksenia-chernaya-5766564.jpg');
+    background-size: cover;
+    color: #FFFBE9;
+}
+main section:nth-child(3) article{
+    font-size: 1.4rem;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+/* section4 up to 600px start */
 @media screen and (max-width: 600px) {
-    main section:nth-child(3){
+    main section:nth-child(4){
         background-color: #FFFBE9;
         width: 100%;
         height: fit-content;
@@ -565,305 +617,266 @@ main section:nth-child(1) article a:hover{
         padding-bottom: 30px;
 
     }
-    main section:nth-child(3) h1{
+    main section:nth-child(4) h1{
         font-size: 2rem;
         text-align: center;
         margin: 0;
         padding: 10px;
         color: #666666;
     }
-    main section:nth-child(3) input{
+    main section:nth-child(4) input{
         width: 150px;
         height: 20px;
         font-size: 1rem;
     }
-    main section:nth-child(3) select{
+    main section:nth-child(4) select{
         width: 100px;
         height: 26px;
         font-size: 1rem;
     }
-    main section:nth-child(3) button{
+    main section:nth-child(4) button{
         width: 100px;
         height: 26px;
         font-size: 1rem;
         cursor: pointer;
+        border: none;
         border-radius: 10px;
         transition: 0.4s;
-        background-color: #E3CAA5;
         color: #666666;
         font-weight: bold;
+        cursor: pointer;
 
     }
-    main section:nth-child(3) button:hover{
+    main section:nth-child(4) button:hover{
         background-color: #AD8B73;
         color: #FFFBE9;
     }
 
-    main section:nth-child(3) article{
+    main section:nth-child(4) article{
         width: 80%;
-        height: 260px;
+        height: 320px;
         margin: 30px auto 0 auto;
         border-top: 1px solid #666666;
     }
-    main section:nth-child(3) article h2{
+    main section:nth-child(4) article h2{
         margin-top: 30px;
         margin-bottom: 0;
         font-size: 1.6rem;
         color: #666666;
     }
-    main section:nth-child(3) article:nth-child(3) img{
+    main section:nth-child(4) article:nth-child(3) img{
         width: 50px;
         padding: 10px;
         position: relative;
         top: 20px;
     }
 
-    main section:nth-child(3) article:nth-child(4) img{
+    main section:nth-child(4) article:nth-child(4) img{
         width: 50px;
         padding: 10px;
         position: relative;
         top: 20px;
     }
-    main section:nth-child(3) article:nth-child(5) img{
+    main section:nth-child(4) article:nth-child(5) img{
         width: 50px;
         padding: 10px;
         position: relative;
         top: 20px;
     }
-    main section:nth-child(3) article p{
+    main section:nth-child(4) article p{
         padding: 0 20px;
         font-size: 0.8rem;
     }
 }
-/* section3 up to 600px end */
+/* section4 up to 600px end */
 
-/* section3 over 600px start */
+/* section4 over 600px start */
 @media screen and (min-width: 600px) {
-    main section:nth-child(3){
+    main section:nth-child(4){
         background-color: #FFFBE9;
         width: 100%;
         height: fit-content;
         text-align: center;
         padding-bottom: 30px;
-
     }
-    main section:nth-child(3) h1{
+    main section:nth-child(4) h1{
         font-size: 2.3rem;
         text-align: center;
         margin: 0;
         padding: 10px;
         color: #666666;
     }
-    main section:nth-child(3) input{
+    main section:nth-child(4) input{
         width: 150px;
         height: 30px;
     }
-    main section:nth-child(3) select{
+    main section:nth-child(4) select{
         width: 100px;
         height: 36px;
     }
-    main section:nth-child(3) button{
+    main section:nth-child(4) button{
         width: 100px;
         height: 36px;
+        border: none;
         border-radius: 10px;
         transition: 0.4s;
-        background-color: #E3CAA5;
         color: #666666;
         font-weight: bold;
-
+        cursor: pointer;
     }
-    main section:nth-child(3) button:hover{
+    main section:nth-child(4) button:hover{
         background-color: #AD8B73;
         color: #FFFBE9;
     }
 
-    main section:nth-child(3) article{
+    main section:nth-child(4) article{
         width: 80%;
         height: 260px;
         margin: 30px auto 0 auto;
+        padding: 20px;
         border-top: 1px solid #666666;
     }
-    main section:nth-child(3) article h2{
+    main section:nth-child(4) article h2{
         margin-top: 30px;
         font-size: 1.8rem;
         color: #666666;
     }
-    main section:nth-child(3) article:nth-child(3) img{
+    main section:nth-child(4) img{
         width: 80px;
-        float: left;
-        padding: 80px;
+        padding: 20px;
         position: relative;
         top: 20px;
     }
-
-    main section:nth-child(3) article:nth-child(4) img{
-        width: 80px;
-        float: right;
-        padding: 80px;
-        position: relative;
-        top: 20px;
-    }
-    main section:nth-child(3) article:nth-child(5) img{
-        width: 80px;
-        float: left;
-        padding: 80px;
-        position: relative;
-        top: 20px;
-    }
-    main section:nth-child(3) article p{
+    main section:nth-child(4) article p{
         padding: 0 20px;
         font-size: 0.8rem;
     }
-/* section3 over 600px end */
+/* section4 over 600px end */
 }
-/* section3 over 768px start */
+/* section4 over 768px start */
 @media screen and (min-width: 768px) {
-    main section:nth-child(3){
+    main section:nth-child(4){
         background-color: #FFFBE9;
         width: 100%;
         height: fit-content;
         text-align: center;
         padding-bottom: 30px;
     }
-    main section:nth-child(3) h1{
+    main section:nth-child(4) h1{
         font-size: 3rem;
         text-align: center;
         margin: 0;
         padding: 10px;
         color: #666666;
     }
-    main section:nth-child(3) input{
+    main section:nth-child(4) input{
         width: 300px;
         height: 40px;
         font-size: 1.3rem;
     }
-    main section:nth-child(3) select{
+    main section:nth-child(4) select{
         width: 200px;
         height: 46px;
         font-size: 1.3rem;
     }
-    main section:nth-child(3) button{
-        width: 100px;
-        height: 46px;
-        font-size: 1.3rem;
-        border-radius: 10px;
-        transition: 0.4s;
-        background-color: #E3CAA5;
-        color: #666666;
-        font-weight: bold;
-
-    }
-    main section:nth-child(3) button:hover{
-        background-color: #AD8B73;
-        color: #FFFBE9;
-    }
-
-    main section:nth-child(3) article{
-        width: 80%;
-        height: 300px;
-        margin: 30px auto 0 auto;
-        border-top: 1px solid #666666;
-    }
-    main section:nth-child(3) article h2{
-        margin-top: 60px;
-        font-size: 2rem;
-        color: #666666;
-    }
-    main section:nth-child(3) article:nth-child(3) img{
-        width: 100px;
-        float: left;
-        padding: 120px;
-    }
-
-    main section:nth-child(3) article:nth-child(4) img{
-        width: 100px;
-        float: right;
-        padding: 120px;
-    }
-    main section:nth-child(3) article:nth-child(5) img{
-        width: 100px;
-        float: left;
-        padding: 120px;
-    }
-
-    main section:nth-child(3) article p{
-        padding: 0 30px;
-    }
-}
-/* section3 over 768px end */
-
-/* section3 over 992px start */
-@media screen and (min-width: 992px) {
-    main section:nth-child(3){
-        background-color: #FFFBE9;
-        width: 100%;
-        height: fit-content;
-        text-align: center;
-        padding-bottom: 50px;
-    }
-    main section:nth-child(3) h1{
-        font-size: 3rem;
-        text-align: center;
-        margin: 0;
-        padding: 10px;
-        color: #666666;
-    }
-    main section:nth-child(3) input{
-        width: 300px;
-        height: 40px;
-        font-size: 1.3rem;
-    }
-    main section:nth-child(3) select{
-        width: 200px;
-        height: 46px;
-        font-size: 1.3rem;
-    }
-    main section:nth-child(3) button{
+    main section:nth-child(4) button{
         width: 100px;
         height: 46px;
         font-size: 1.3rem;
         border: none;
         border-radius: 10px;
         transition: 0.4s;
-        background-color: #E3CAA5;
         color: #666666;
         font-weight: bold;
 
     }
-    main section:nth-child(3) button:hover{
+    main section:nth-child(4) button:hover{
         background-color: #AD8B73;
         color: #FFFBE9;
     }
 
-    main section:nth-child(3) article{
+    main section:nth-child(4) article{
         width: 80%;
         height: 300px;
         margin: 30px auto 0 auto;
         border-top: 1px solid #666666;
     }
-    main section:nth-child(3) article h2{
-        margin-top: 80px;
+    main section:nth-child(4) article h2{
+        margin-top: 60px;
         font-size: 2rem;
         color: #666666;
     }
-    main section:nth-child(3) article:nth-child(3) img{
+    main section:nth-child(4) img{
         width: 100px;
-        float: left;
-        padding: 120px;
+        padding: 10px;
     }
 
-    main section:nth-child(3) article:nth-child(4) img{
-        width: 100px;
-        float: right;
-        padding: 120px;
+    main section:nth-child(4) article p{
+        padding: 0 30px;
     }
-    main section:nth-child(3) article:nth-child(5) img{
+}
+/* section4 over 768px end */
+
+/* section4 over 992px start */
+@media screen and (min-width: 992px) {
+    main section:nth-child(4){
+        background-color: #FFFBE9;
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    main section:nth-child(4) h1{
+        font-size: 3rem;
+        text-align: center;
+        margin: 0;
+        padding: 30px 10px 10px 10px;
+        color: #666666;
+    }
+    main section:nth-child(4) input{
+        width: 300px;
+        height: 40px;
+        font-size: 1.3rem;
+    }
+    main section:nth-child(4) select{
+        width: 200px;
+        height: 46px;
+        font-size: 1.3rem;
+    }
+    main section:nth-child(4) button{
         width: 100px;
-        float: left;
-        padding: 120px;
+        height: 46px;
+        font-size: 1.3rem;
+        border: none;
+        border-radius: 10px;
+        transition: 0.4s;
+        color: #666666;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+    main section:nth-child(4) button:hover{
+        background-color: #AD8B73;
+        color: #FFFBE9;
     }
 
-    main section:nth-child(3) article p{
+    main section:nth-child(4) article{
+        width: 80%;
+        height: 300px;
+        margin: 30px auto 0 auto;
+        border-top: 1px solid #666666;
+        display: inline-block;
+    }
+    main section:nth-child(4) article h2{
+        font-size: 2rem;
+        color: #666666;
+    }
+    main section:nth-child(4) img{
+        width: 100px;
+        padding: 30px;
+    }
+
+    main section:nth-child(4) article p{
         padding: 0 30px;
     }
 }
@@ -871,90 +884,107 @@ main section:nth-child(1) article a:hover{
 footer{
     width: 100%;
     height: fit-content;
-    background-color: #AD8B73;
-    display: grid;
-    grid-template-areas:
-    "section section section";
+    background-color: #80634e;
+    padding: 10px 0;
     color: #FFFBE9;
-}
-footer section:nth-child(1) article{
     text-align: center;
 }
-footer section:nth-child(1) article h1{
-    font-size: 1.3rem;
-    margin-top: 40px;
+footer section{
+    display: inline-block;
+    width: 30%;
+    height: 150px;
 }
-footer section:nth-child(1) article a{
-    color: #FFFBE9;
-    text-decoration: none;
-    position: relative;
-    top: 10px;
-    padding: 6px 17px;
-    border: 2px solid #FFFBE9;
-    border-radius: 5px;
-    transition: 0.4s;
-}
-footer section:nth-child(1) article a:hover{
-    background-color: #FFFBE9;
-    color: #AD8B73;
-}
-footer section:nth-child(1) article img{
+
+footer section:nth-child(1) img{
     width: 20px;
     height: 20px;
-    margin-right: 5px;
+}
+footer section:nth-child(1) nav{
     margin-top: 30px;
 }
-footer section:nth-child(1) article p{
-    margin: 20px 0 0 0;
+
+footer section:nth-child(1) nav img{
+    width: 20px;
+    height: 20px;
+    margin: 7px;
 }
-footer section:nth-child(2) article ul{
-    margin-top: 35px;
+footer section:nth-child(1) a{
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #FFFBE9;
+    border: 2px solid #FFFBE9;
+    border-radius: 10px;
+    margin: 5px;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+footer section:nth-child(1) a:hover{
+    color: #666666;
+    background-color: #E3CAA5;
+}
+footer section img:nth-child(4){
+    position: relative;
+    top: 20px;
+    width: 80px;
+}
+footer section:nth-child(2) li{
+    list-style: none;
+    margin-top: 30px;
 }
 
-footer section:nth-child(2) article li{
-    margin-top: 20px;
-    list-style: none;
-}
-footer section:nth-child(2) article li a{
+footer section:nth-child(2) a{
+    color: #FFFBE9;
     text-decoration: none;
+}
+footer section:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+footer p a{
     color: #FFFBE9;
 }
-footer section:nth-child(2) article li a:hover{
-    color: #E3CAA5;
-}
 
-/* footer up to 600 start */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 600px) {
     footer{
-        font-size: 0.6rem;
-    }
-    footer section:nth-child(1) article h1{
-        font-size: 0.9rem;
-        margin-top: 30px;
-    }
-    footer section:nth-child(1) article a{
         font-size: 0.7rem;
-        padding: 4px 13px;
-        border-radius: 5px;
+        padding: 5px 0;
     }
-    footer section:nth-child(1) article img{
-        width: 13px;
-        height: 13px;
-        margin-right: 5px;
-        margin-top: 25px;
+    footer section:nth-child(1) {
+        position: relative;
+        top: 10px;
+    }
+    footer section:nth-child(1) a{
+        padding: 5px 20px;
+        font-weight: bold;
+        color: #FFFBE9;
+        border: 2px solid #FFFBE9;
+        border-radius: 10px;
+        margin: 5px;
+        text-decoration: none;
+        transition: 0.4s;
+
+    }
+    footer section:nth-child(1) nav{
+        margin-top: 15px;
     }
 
-    footer section:nth-child(2) article ul{
-        margin-top: 20px;
+    footer section:nth-child(1) nav img{
+        width: 15px;
+        height: 15px;
+        margin: 4px;
     }
-    footer section:nth-child(2) article li {
-        margin-top: 10px;
+    footer section img:nth-child(4){
+        position: relative;
+        top: 5px;
+        width: 40px;
     }
-    footer section:nth-child(3) article h3{
-        margin-top: 10px;
+    footer section:nth-child(2) {
+        position: relative;
+        top: 5px;
+        right: 15px;
     }
-
-
+    footer section:nth-child(3) {
+        position: relative;
+        top:20px;
+    }
 }
-/* footer up to 600 end */
-
